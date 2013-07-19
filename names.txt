@@ -2,5 +2,9 @@ Some names
 -------------
 Fred Smith
 Mary Smith
+<<<<<<< HEAD
 Andy Smith
 
+=======
+Will Smith
+>>>>>>> origin/master
