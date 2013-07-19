@@ -12,3 +12,12 @@ Push an existing repository from the command line
 git remote add origin https://github.com/onyougoson/vsdemo2.git
 git push -u origin master
 
+password helper:
+git config credential.helper 'cache --timeout=3600' // default is 15 min
+git config --global credential.helper cache
+or
+change origin to:
+https://you:password@github.com/onyougoson/vsdemo2.git
+
+
+
